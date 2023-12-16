@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moho website</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="Dress.html">
+    <link rel="stylesheet" href="Accessories.html">
+    <link rel="stylesheet" href="Bags.html">
+    <link rel="stylesheet" href="Skincare.html">
+    <link rel="stylesheet" href="signin.html">
+    <link rel="stylesheet" href="signup.html">
+    <link rel="stylesheet" href="Shipping.html">
+    <link rel="stylesheet" href="Payment.html">
+    <style>
+  .bg{
+    background-color: rgb(209, 205, 210);
+  }
+  .card {
+  display: flex;
+  background-color: rgb(249, 247, 249);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 90%;
+}
+.image {
+  flex: 1;
+  text-align: right;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.content {
+  flex: 2;
+  padding-left: 20px;
+  margin-left: 10%;
+  margin: auto;
+  margin-top: 90px;
+}
+
+.title {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 7% ;
+  color:rgb(11, 5, 11) ;
+}
+
+.description {
+  font-size: 20px;
+  font-weight: bold;
+  color:rgb(49, 46, 49) ;
+}
+.card-containerh {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardh {
+  width: 250px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+  margin-right:20px;
+  margin-top: 40px;
+}
+.cardh img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.titleh {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.descriptionh {
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+}
+.button {
+  padding: 10px 20px;
+  background-color: rgb(177, 160, 175);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: rgb(177, 160, 175);
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #b6b2b2;
+}
+.footer-container {
+  margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(108, 71, 103);
+    color: #ffffff;
+    padding: 20px;
+}
+
+.section {
+    max-width: 300px;
+}
+
+.payment-methods img,
+.social-media a {
+    margin-right: 10px;
+}
+    </style>
+</head>
+<body class="bg">
+    <section>
+        <nav class="navbar">
+            <a href=""><img src="C:\Users\pc planet\Desktop\Moho\logo.jpeg" class="logo"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><button class="button-style"><a href="Home.html"><b>Home</b> </a></button></li>
+                    <li><button class="button-style"><a href="Dress.html"><b>Products</b></a></button></li>
+                </ul>
+            </div>
+            <div class="button-style">
+                <button><a href="signup.html">Sign up</a></button>
+                <button><a href="signin.html">login</a></button>
+            </div>
+            <a href="Shipping.html"><img src="C:\Users\pc planet\Desktop\Moho\cart.jpg" class="cart"></a>
+        </nav>
+    </section>
+    <section>
+      <div class="card">
+        <div class="image">
+          <img src="bg-image.jpg" alt="Image">
+        </div>
+        <div class="content">
+          <h2 class="title"><b><i>Minimalist and elegant design</i></b></h2>
+          <p class="description">We offer a curated collection of dresses, bags, and accessories that embody timeless style and high quality. Our dresses feature clean lines and flattering silhouettes, while our bags are both functional and stylish. Complete your look with our selection of elegant accessories. We strive to provide exceptional customer service and a seamless shopping experience. Explore our website to find the perfect pieces to enhance your minimalist and elegant style.</p>
+        </div>
+    </section>
+    <section>
+      <div class="card-containerh">
+        <div class="cardh">
+          <img src="Dresses.jpg" alt="Image 1">
+          <button class="button"><a href="Dress.html">View</a></button>
+          <p class="descriptionh">Simple and elegant dresses</p>
+        </div>
+        <div class="cardh">
+          <img src="Bag.jpg" alt="Image 2">
+          <button class="button"><a href="Bags.html">View</a></button>
+          <p class="descriptionh">Iconic and trendy Bags </p>
+        </div>
+        <div class="cardh">
+          <img src="Accessories.jpg" alt="Image 3">
+          <button class="button"><a href="Accessories.html">View</a></button>
+          <p class="descriptionh">Minimalist jewels</p>
+        </div>
+        <div class="cardh">
+          <img src="Skincare.jpg" alt="Image 4">
+          <button class="button"><a href="Skincare.html">View</a></button>
+          <p class="descriptionh">Plant based skincare products affective and light.</p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-container">
+        <div class="section payment-methods">
+            <h3>Payment Methods</h3>
+            <p>We accept various payment methods for your convenience:</p>
+            <img src="C:\Users\pc planet\Desktop\Moho\visa.jpg" alt="Visa" width="50px" height="50px">
+            <img src="C:\Users\pc planet\Desktop\Moho\mastercard.jpeg" alt="MasterCard" width="50px" height="50px">
+        </div>
+        <div class="section contact-info">
+            <h3>Contact Information</h3>
+            <p>If you have any questions, feel free to reach out:</p>
+            <p>Email: <a href="">Mohoinfo@gmail.com</a></p>
+            <p>Phone: (1212) 475-45337</p>
+            <p>Address: F-6 Markaz, Islamabad, pakistan, 44000</p>
+        </div>
+        <div class="section social-media">
+            <h3>Connect with Us</h3>
+            <p>Follow us on social media for updates and promotions:</p>
+            <a href="https://facebook.com">Facebook</a>
+            <a href="https://twitter.com">twitter</a>
+            <a href="https://instagram.com">Instagram</a>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
